@@ -79,6 +79,7 @@ fun NewHome(modifier: Modifier = Modifier) {
         }
 
 
+
         Column {
             viewmodel.newtodo.sortedByDescending { it.todoID }.forEach { todo ->
                 Row(
